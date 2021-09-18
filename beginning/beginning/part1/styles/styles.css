@@ -7,9 +7,9 @@ body {
 
 h3 {
     color: #111111;
-    text-decoration: underline #929CA4 ;
+    border-bottom: 1px solid #929CA4;
 }
-P:first-of-type::first-letter {
+.first p:first-of-type:first-letter {
     font-size: 30px;
 }
 

@@ -11,10 +11,11 @@ body {
 .list{
     padding-inline-start: 0px;
 }
-ul:not(.solution_1, .solution_2,.solution_3) li{
+.list li{
     list-style-type: none;
     padding-inline-start: none;
 }
+
 .b{
     list-style-position: outside;
 }
@@ -43,7 +44,7 @@ h3{
 a {
     color: #CC1C0D ;
 }
-section:not(.pricing, .class1) img{
+section:not(.pricing) img{
     margin-right: 10px;
     margin-left: 20px;
     border-radius: 40px;
