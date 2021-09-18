@@ -9,7 +9,7 @@ h3 {
     color: #111111;
     border-bottom: 1px solid #929CA4;
 }
-.first p:first-of-type:first-letter {
+p:first-of-type:first-letter {
     font-size: 30px;
 }
 
@@ -17,7 +17,7 @@ h3 {
     color: #CC1C0D;
     font-weight: bold;
 }
-#testimonial1,#testimonial2 {
+#testimonial1+p,#testimonial2+p,#testimonial1,#testimonial2 {
     font-style: italic;
     margin-left: 50px;
 }
